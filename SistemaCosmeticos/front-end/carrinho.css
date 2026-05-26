@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho-lista{
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr 1fr 1fr 50px;
+    padding: 0 25px 15px 25px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.lista-produtos{
+    list-style: none;
+}
+
+.lista-produtos-itens{
+    display: grid;
+    grid-template-columns: 80px 2fr 1fr 1fr 1fr 100px;
+}
