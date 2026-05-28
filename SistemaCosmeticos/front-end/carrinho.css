@@ -8,7 +8,7 @@ body{
 .cabecalho-lista{
     display: grid;
     grid-template-columns: 100px 2fr 1fr 1fr 1fr 50px;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     margin-bottom: 20px;
     color: #777;
     font-size: 13px;
@@ -24,6 +24,7 @@ li{
     display: grid;
     grid-template-columns: 100px 2fr 1fr 1fr 1fr 50px;
     height: 150px;
+    border-top: 1px solid #ddd;
 }
 
 .botao{
@@ -87,7 +88,7 @@ primeira-coluna-container{
 
 .cupom{
     display: flex;
-    gap: 8px;
+    gap: 8pxs;
     margin-top: 30px;
     background-color: #F7E6EA;
 }
