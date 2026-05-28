@@ -3,16 +3,32 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .cabecalho-lista{
     display: grid;
-    grid-template-columns: 100px 2fr 1fr 1fr 1fr 50px;
+    grid-template-columns: 150px 2fr 1fr 1fr 1fr 50px;
     border-top: 1px solid #ddd;
     margin-bottom: 20px;
     color: #777;
     font-size: 13px;
     font-weight: bold;
+}
+
+h1{
+    padding: 0px 40px;
+}
+
+.subtitulos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.subtitulos-inicio{
+    display: flex;
+    gap: 10px;
 }
 
 li{
@@ -66,7 +82,8 @@ primeira-coluna-container{
 .resumo{
     border: 1px solid #ddd;
     border-radius: 8px;
-    display: grid;   
+    display: grid; 
+    text-align: center;  
     gap: 10px;
     padding: 30px;
     box-shadow:
@@ -107,6 +124,14 @@ primeira-coluna-container{
     box-sizing: border-box;
 }
 
+.parcelamento{
+    display: grid;
+    margin-left: auto;
+    margin-top: -25px; 
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
 .botoes-finalizar{
     display: flex;   
     align-items: center;    
@@ -122,10 +147,29 @@ primeira-coluna-container{
 
 .cupom{
     display: flex;
-    gap: 8pxs;
+    align-items: center;
+    gap: 8px;
     margin-top: 30px;
     background-color: #F7E6EA;
     border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    padding: 30px;
+}
+
+input{
+    border: 1px #C97D93;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.cupom button{
+    height: 40px;
+    width: 100px;
+}
+
+.cupom button:hover{
+    background-color: #E8B7C2;
 }
 
 
