@@ -1,5 +1,5 @@
 body{
-    font-family: "Playfair Display", serif;
+    font-family: 'inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,6 +41,10 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #F7E6EA;
+}
+
 .produtos{
     width: 80px;
     height: 80px;
@@ -62,9 +66,9 @@ primeira-coluna-container{
 .resumo{
     border: 1px solid #ddd;
     border-radius: 8px;
-    display: grid;
-    place-items: center;
-    padding-bottom: 10px;
+    display: grid;   
+    gap: 10px;
+    padding: 30px;
     box-shadow:
     0 2px 10px rgba(0,0,0,0.03),
     0 8px 30px rgba(0,0,0,0.04);
@@ -86,11 +90,42 @@ primeira-coluna-container{
     gap:10px;
 }
 
+.itens-subtotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.total-compra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.botoes-finalizar{
+    display: flex;   
+    align-items: center;    
+    gap: 10px;        
+    flex-direction: column;  
+}
+
+.botoes-finalizar button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
 .cupom{
     display: flex;
     gap: 8pxs;
     margin-top: 30px;
     background-color: #F7E6EA;
+    border-radius: 10px;
 }
 
 
