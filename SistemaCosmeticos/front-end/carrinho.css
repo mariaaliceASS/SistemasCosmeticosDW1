@@ -18,15 +18,29 @@ body{
 
 h1{
     font-family: 'Sorial', serif;
-    padding: 20px;
     text-align: center;
     font-weight: 500;
     font-size: 35px;
     color: #c96a6a;
 }
 
-.breadcrumb{
+a{
+    text-decoration: none;
+    color: #b07070;
+}
+
+a:hover{
+    color: #8a4f4f;
+}
+
+.links{
     text-align: center;
+    color: #b07070;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    transition: color 0.2s ease;
+    padding-bottom: 15px;
 }
 
 li{
