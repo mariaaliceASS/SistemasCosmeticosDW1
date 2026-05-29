@@ -25,6 +25,10 @@ h1{
     color: #c96a6a;
 }
 
+.breadcrumb{
+    text-align: center;
+}
+
 li{
     list-style: none;
 }
