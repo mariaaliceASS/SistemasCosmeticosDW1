@@ -1,57 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<header>
-    <nav class="nav-bar">
-        <div id="logo">
-            <img src="../icons/logo.jpg" alt="logo-navbar">
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Principal</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <header>
+        <nav class="nav-bar">
+            <div id="logo">
+                <img src="../icons/logo.jpg" alt="logo-navbar">
+            </div>
 
-        <div id="menu">
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Destaques</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </div>
-
-        <div id="user-menu">
-            <ul>
-                <li><a href="#"><img class="icon" src="../icons/search.svg" alt="Imagem de icon"></a></li>
-                <li><a href="#"><img class="icon"  src="../icons/user-round.svg" alt="Imagem de icon"></a></li>
-                <li><a href="carrinho.html"><img class="icon" src="../icons/handbag.svg" alt="Imagem de icon"></a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="first-img">
-        <img src="../icons/first-img-original.png" alt="imagem 1 de propaganda">
-    </div>
-
-    <div>
-        <div>
-            <h1>Nossos Produtos</h1>
-            <div id="mini-menu">
+            <div id="menu">
                 <ul>
-                    <li>Todos</li>
-                    <li>Séruns</li>
-                    <li>Hidratantes</li>
-                    <li>Limpeza</li>
-                    <li>Kits</li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Destaques</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </div>
-        </div>
-    </div>
-</header>
-<body>
-    <footer id="logo-footer">
-        <img src="../icons/logo.jpg" alt="logo-footer">
-    </footer>    
-</body>
+
+            <div id="user-menu">
+                <ul>
+                    <li><a href="#"><img class="icon" src="../icons/search.svg" alt="Imagem de icon"></a></li>
+                    <li><a href="#"><img class="icon"  src="../icons/user-round.svg" alt="Imagem de icon"></a></li>
+                    <li><a href="carrinho.html"><img class="icon" src="../icons/handbag.svg" alt="Imagem de icon"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <body>
+        <main>
+            <div id="first-img">
+                <img src="../icons/first-img-original.png" alt="imagem 1 de propaganda">
+                <div class="banner-text">
+                    <h1>Beleza que <br>começa com <i>você</i></h1>
+                    <p>Skincare de qualidade que te preparada para<br> ser a sua melhor versão.</p>
+                </div>
+            </div>
+
+            <div>
+                <div id="mini-menu">
+                    <h2>Nossos Produtos</h2>
+                    <ul>
+                        <li><a href="#">Todos</a></li>
+                        <li><a href="#">Séruns</a></li>
+                        <li><a href="#">Hidratantes</a></li>
+                        <li><a href="#">Limpeza</a></li>
+                        <li><a href="#">Kits</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+
+                    </div>
+                    <div class="produtos">
+                        <ul>
+                            <li>
+                                <img src="../icons/cosmetico1.png" alt="Creme Hidratante">
+                                <p><strong>Prod 1</strong></p>
+                                <p>Hidrata e Uniformiza a pele</p>
+                                <p>R$ 139,90</p>
+                                <button>Adicionar<img src="../icons/handbag.svg" alt="handbag"></button>
+                            </li>
+                            <li>
+                                <img src="../icons/cosmetico2.png" alt="Sérum Facial">
+                                <p><strong>Prod 1</strong></p>
+                                <p>Hidrata e Uniformiza a pele</p>
+                                <p>R$ 119,90</p>
+                                <button>Adicionar<img src="../icons/handbag.svg" alt="handbag"></button>
+                            </li>
+                            <li>
+                                <img src="../icons/cosmetico1.png" alt="Protetor Solar">
+                                <p><strong>Prod 1</strong></p>
+                                <p>Hidrata e Uniformiza a pele</p>
+                                <p>R$ 79,90</p>
+                                <button>Adicionar<img src="../icons/handbag.svg" alt="handbag"></button>
+                            </li>
+                            <li>
+                                <img src="../icons/cosmetico2.png" alt="Hidratante Labial">
+                                <p><strong>Prod 1</strong></p>
+                                <p>Hidrata e Uniformiza a pele</p>
+                                <p>R$ 99,90</p>
+                                <button>Adicionar<img src="../icons/handbag.svg" alt="handbag"></button>
+                            </li>                                                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        
+        <footer>
+            <div id="footer-um">
+                <div id="intro-footer">
+                    <div id="logo-footer">
+                        <img src="../icons/logo.jpg" alt="logo-footer">
+                    </div>
+
+                    <div id="redes-sociais">
+                        <p class="descricao frase">Skincare de qualidade que te prepara<br> para ser a sua melhor versão.</p>
+                        <div id="icon-redes">
+                            <a href="#"><img class="icon" src="../icons/tik-tok.png" alt="Imagem de icon"></a>
+                            <a href="#"><img class="icon" src="../icons/instagram.png" alt="Imagem de icon"></a>
+                            <a href="#"><img class="icon" src="../icons/youtube.png" alt="Imagem de icon"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topicos">
+                    <div class="topico-footer">
+                        <h3>Institucional</h3>
+                        <ul>
+                            <li>Sobre Nós</li>
+                            <li>Ingredientes</li>
+                            <li>Sustentabilidade</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                    <div class="topico-footer">
+                        <h3>Ajuda</h3>
+                        <ul>
+                            <li>Como Comprar</li>
+                            <li>Entregas e Prazos</li>
+                            <li>Trocas e Devoluções</li>
+                            <li>Perguntas Frequentes</li>
+                            <li>Fale Conosco</li>
+                        </ul>                
+                    </div>
+                    <div class="topico-footer">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li>(11) 99999-9999</li>
+                            <li>contato@SweetBeauty.com</li>
+                            <li>Av. ifrs, 1000 - Canoas/RS</li>
+                        </ul>                
+                    </div>
+                </div>   
+            </div>
+            <hr>
+            <div id="direitos">
+                <p class="descricao">© 2026 Sistema de Cosmeticos. Todos os direitos reservados.</p>
+                <div class="bandeiras">
+                    <a href="#"><img class="icon" src="../icons/master.png" alt="Imagem de icon"></a>
+                    <a href="#"><img class="icon" src="../icons/american-express.png" alt="Imagem de icon"></a>
+                    <a href="#"><img class="icon" src="../icons/visa.png" alt="Imagem de icon"></a>
+                </div>
+            </div>
+        </footer>    
+    </body>
 </html>
