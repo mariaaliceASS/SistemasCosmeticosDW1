@@ -17,18 +17,12 @@ body{
 }
 
 h1{
-    padding: 0px 40px;
-}
-
-.subtitulos{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 40px;
-}
-
-.subtitulos-inicio{
-    display: flex;
-    gap: 10px;
+    font-family: 'Sorial', serif;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    color: #c96a6a;
 }
 
 li{
@@ -52,13 +46,14 @@ li{
 
 button{
     border: 1px solid #ddd;
-    background: white;
+    background: #c97070;
     border-radius: 6px;
     cursor: pointer;
+    color: white;
 }
 
 button:hover{
-    background-color: #F7E6EA;
+    background-color: #b85a5a;
 }
 
 .produtos{
@@ -89,6 +84,10 @@ primeira-coluna-container{
     box-shadow:
     0 2px 10px rgba(0,0,0,0.03),
     0 8px 30px rgba(0,0,0,0.04);
+}
+
+.resumo h2{
+    font-size: 30px;
 }
 
 .pagamentos{
@@ -130,6 +129,7 @@ primeira-coluna-container{
     margin-top: -25px; 
     padding-top: 0px;
     margin-bottom: 10px;
+    padding-right: 25px;
 }
 
 .botoes-finalizar{
@@ -149,12 +149,13 @@ primeira-coluna-container{
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: 30px;
+    margin-top: 80px;
     background-color: #F7E6EA;
     border-radius: 10px;
     height: 50px;
     width: 500px;
     padding: 30px;
+    font-size: 16px;
 }
 
 input{
@@ -168,8 +169,17 @@ input{
     width: 100px;
 }
 
-.cupom button:hover{
-    background-color: #E8B7C2;
+
+.informacoes-adicionais{
+    background-color: #F7E6EA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+    padding: 80px;
 }
 
-
+.informacoes-adicionais img{
+    height: 30px;
+    width: 30px;
+}
