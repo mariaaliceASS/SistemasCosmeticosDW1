@@ -88,7 +88,7 @@ button:hover{
     gap:20px;
 }
 
-primeira-coluna-container{
+.primeira-coluna-container{
     gap: 30px;
 }
 
@@ -200,4 +200,68 @@ input{
 .informacoes-adicionais img{
     height: 30px;
     width: 30px;
+}
+
+@media (orientation: portrait) {
+
+    body{
+        align-items: center;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .cabecalho-lista{
+        display: none;
+    }
+
+    .lista-produtos-itens{
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 10px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .produtos{
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    .botao{
+        justify-content: center;
+    }
+
+    .cupom{
+        width: 100%;
+        max-width: 100%;
+        padding: auto;
+    }
+
+    .total-compra{
+        width: 100%;
+        padding: auto;
+    }
+
+    .cupom input,
+    .cupom button{
+        width: 100%;
+    }
+
+    .informacoes-adicionais{
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .botoes-finalizar{
+        width: 100%;
+    }
+    
 }
