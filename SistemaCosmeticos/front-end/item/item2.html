@@ -5,14 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Item</title>
     <link href="item.css" rel="stylesheet">
+    <link href="../index.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+     <header>
+        <nav class="nav-bar">
+        <div id="logo">
+            <img src="../../icons/logo.jpg" alt="logo-navbar">
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="#">Destaques</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div id="user-menu">
+            <ul>
+                <li><a href="#"><img class="icon" src="../../icons/search.svg" alt="Imagem de icon"></a></li>
+                <li><a href="#"><img class="icon"  src="../../icons/user-round.svg" alt="Imagem de icon"></a></li>
+                <li><a href="../carrinho.html"><img class="icon" src="../../icons/handbag.svg" alt="Imagem de icon"></a></li>
+            </ul>
+        </div>
+    </nav>
         <nav class="breadcrumb">
-            <a href="#">Início</a>
+            <a href="../index.html">Início</a>
             <span class="divisao">></span>
             <a href="#">Produtos</a>
             <span class="divisao">></span>
@@ -124,5 +147,62 @@
             </div>
         </section>
     </main>
+       <footer>
+            <div id="footer-um">
+                <div id="intro-footer">
+                    <div id="logo-footer">
+                        <img src="../../icons/logo.jpg" alt="logo-footer">
+                    </div>
+
+                    <div id="redes-sociais">
+                        <p class="descricao frase">Skincare de qualidade que te prepara<br> para ser a sua melhor versão.</p>
+                        <div id="icon-redes">
+                            <a href="#"><img class="icon" src="../../icons/tik-tok.png" alt="Imagem de icon"></a>
+                            <a href="#"><img class="icon" src="../../icons/instagram.png" alt="Imagem de icon"></a>
+                            <a href="#"><img class="icon" src="../../icons/youtube.png" alt="Imagem de icon"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topicos">
+                    <div class="topico-footer">
+                        <h3>Institucional</h3>
+                        <ul>
+                            <li>Sobre Nós</li>
+                            <li>Ingredientes</li>
+                            <li>Sustentabilidade</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                    <div class="topico-footer">
+                        <h3>Ajuda</h3>
+                        <ul>
+                            <li>Como Comprar</li>
+                            <li>Entregas e Prazos</li>
+                            <li>Trocas e Devoluções</li>
+                            <li>Perguntas Frequentes</li>
+                            <li>Fale Conosco</li>
+                        </ul>                
+                    </div>
+                    <div class="topico-footer">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li>(11) 99999-9999</li>
+                            <li>contato@SweetBeauty.com</li>
+                            <li>Av. ifrs, 1000 - Canoas/RS</li>
+                        </ul>                
+                    </div>
+                </div>   
+            </div>
+            <hr>
+            <div id="direitos">
+                <p class="descricao">© 2026 Sistema de Cosmeticos. Todos os direitos reservados.</p>
+                <div class="bandeiras">
+                    <a href="#"><img class="icon" src="../../icons/master.png" alt="Imagem de icon"></a>
+                    <a href="#"><img class="icon" src="../../icons/american-express.png" alt="Imagem de icon"></a>
+                    <a href="#"><img class="icon" src="../../icons/visa.png" alt="Imagem de icon"></a>
+                </div>
+            </div>
+        </footer>  
 </body>
 </html>
