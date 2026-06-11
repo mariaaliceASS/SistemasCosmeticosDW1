@@ -94,6 +94,7 @@ button:hover{
 
 .primeira-coluna-container{
     gap: 30px;
+    width: 100%;
 }
 
 .resumo{
